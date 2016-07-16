@@ -38,12 +38,23 @@ header h1 {
     line-height: 1.5;
 }
 
+#cards {
+    padding-bottom: 100px;
+}
+
 #cards #head {
     text-align: center;
     color: #2196f3;
     font-size: 8em;
     font-weight: 700;
     line-height: 1.5;
+}
+
+#card-row-1-container {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #card-row-1 {
@@ -59,10 +70,16 @@ header h1 {
 
 #card-row-1 .demo-card-2 {
     float: right;
-    margin-left: 80px;
+}
+
+#card-row-2-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #card-row-2 {
+    width: 800px;
     margin-top: 80px;
     display: inline-block;
 }
@@ -73,5 +90,52 @@ header h1 {
 
 #card-row-2 .demo-card-4 {
     float: right;
-    margin-left: 80px;
+}
+
+#signup {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #9c26b0;
+}
+
+#signup .mdl-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 6em;
+}
+
+#footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #9c26b0;
+}
+
+#footer h2 {
+    margin: 0;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media all and (max-width: 1440px) {
+    header h1 {
+        font-size: 5em;
+    }
+    #dialog h2 {
+        font-size: 5em;
+    }
+    #cards #head {
+        font-size: 5em;
+    }
+    #signup .mdl-button {
+        font-size: 3em;
+    }
+    #footer h2 {
+        font-size: 1.5em;
+    }
 }
