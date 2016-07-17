@@ -24,6 +24,7 @@
         <h2>Login</h2>
     </section>
     <section id="login">
+        <h3>Unable to log in: credentials not found.</h3>
         <h2>Email</h2>
         <form action="#">
             <div class="mdl-textfield mdl-js-textfield">
@@ -38,9 +39,14 @@
                 <label class="mdl-textfield__label" for="pass">Password...</label>
             </div>
         </form>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="setTimeout(myFunction, 400);">
             Login
-        </button>
+        </a>
+        <script>
+            function myFunction() {
+                window.location.href = "dashboard.html";
+            }
+        </script>
         <p>Need an Account? <a href="signup.html">Sign Up</a></p>
     </section>
     <section id="footer">

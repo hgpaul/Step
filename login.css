@@ -75,6 +75,14 @@ header h1 {
     color: #2196f3;
 }
 
+#login h3 {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    padding-bottom: 10px;
+    display: none;
+}
+
 #login .mdl-textfield {
     display: block;
     margin-left: auto;
@@ -86,8 +94,9 @@ header h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
     width: 10%;
-    height: 100px;
+    height: 60px;
     border-radius: 10px;
     font-size: 3em;
 }
