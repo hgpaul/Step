@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Step - Post an Idea</title>
+    <title>Step - Profile</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.purple-blue.min.css" />
-    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="profile.css">
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 </head>
 
@@ -41,26 +41,60 @@
         <main class="mdl-layout__content">
             <div class="page-content">
                 <section id="title">
-                    <h2>Post An Idea</h2>
+                    <h2>Your Profile</h2>
                 </section>
-                <section id="post">
-                    <h2>Title</h2>
+                <section id="profile">
+                    <h2>Name</h2>
                     <form action="#">
                         <div class="mdl-textfield mdl-js-textfield">
-                            <input class="mdl-textfield__input" type="text" id="posttitle">
-                            <label class="mdl-textfield__label" for="posttitle">Skills Needed...</label>
+                            <input class="mdl-textfield__input" type="text" id="name">
+                            <label class="mdl-textfield__label" for="name">Name...</label>
                         </div>
                     </form>
-                    <h2>Idea Description</h2>
+                    <h2>Email</h2>
                     <form action="#">
                         <div class="mdl-textfield mdl-js-textfield">
-                            <input class="mdl-textfield__input" type="text" id="descrip">
-                            <label class="mdl-textfield__label" for="descrip">Idea Description...</label>
+                            <input class="mdl-textfield__input" type="text" id="email">
+                            <label class="mdl-textfield__label" for="email">Email...</label>
                         </div>
                     </form>
-
+                    <h2>Password</h2>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="password">
+                            <label class="mdl-textfield__label" for="password">Password...</label>
+                        </div>
+                    </form>
+                    <h2>Education Level</h2>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="edulevel">
+                            <label class="mdl-textfield__label" for="edulevel">Education Level...</label>
+                        </div>
+                    </form>
+                    <h2>Location</h2>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="location">
+                            <label class="mdl-textfield__label" for="location">Location...</label>
+                        </div>
+                    </form>
+                    <h2>Skills</h2>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <textarea class="mdl-textfield__input" type="text" rows="5" id="skills"></textarea>
+                            <label class="mdl-textfield__label" for="skills">Skills...</label>
+                        </div>
+                    </form>
+                    <h2>Description</h2>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <textarea class="mdl-textfield__input" type="text" rows="5" id="description"></textarea>
+                            <label class="mdl-textfield__label" for="description">Description...</label>
+                        </div>
+                    </form>
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-                        Submit
+                        Update
                     </button>
                 </section>
                 <section id="footer">
