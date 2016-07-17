@@ -69,6 +69,12 @@ header h1 {
     padding-bottom: 50px;
 }
 
+#login h2 {
+    text-align: center;
+    font-size: 5em;
+    color: #2196f3;
+}
+
 #login .mdl-textfield {
     display: block;
     margin-left: auto;
@@ -116,6 +122,9 @@ header h1 {
     }
     #login .mdl-button {
         font-size: 2em;
+    }
+    #login h2 {
+        font-size: 3em;
     }
     #footer h2 {
         font-size: 1.5em;
