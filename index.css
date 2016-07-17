@@ -127,7 +127,7 @@ header h1 {
     text-align: center;
 }
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1550px) {
     header h1 {
         font-size: 5em;
     }
