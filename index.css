@@ -72,6 +72,11 @@ header h1 {
     float: right;
 }
 
+.mdl-card>.mdl-card__title {
+    background-color: #9c26b0;
+    color: white;
+}
+
 #card-row-2-container {
     width: 800px;
     margin-left: auto;
