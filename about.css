@@ -8,6 +8,12 @@
     font-family: 'Arvo', serif;
 }
 
+.mdl-layout-title div {
+    display: inline;
+    position: relative;
+    top: 2px;
+}
+
 #profilelink:link {
     text-decoration: none;
     color: white;
