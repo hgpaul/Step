@@ -1,0 +1,29 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.mdl-layout-title {
+    font-family: 'Arvo', serif;
+}
+
+#footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #9c26b0;
+}
+
+#footer h2 {
+    margin: 0;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media all and (max-width: 1550px) {
+    #footer h2 {
+        font-size: 1.5em;
+    }
+}
