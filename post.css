@@ -101,6 +101,13 @@ body {
     color: #2196f3;
 }
 
+#success {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    display: none;
+}
+
 #post .mdl-textfield {
     display: block;
     margin-left: auto;

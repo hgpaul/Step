@@ -59,9 +59,16 @@
                         </div>
                     </form>
 
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    <button onclick="setTimeout(myFunction, 300);" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
                         Submit
                     </button>
+                    <h3 id="success">Idea Successfully Submitted!</h3>
+                    <script>
+                        function myFunction() {
+                            var myElement = document.querySelector("#success");
+                            myElement.style.display = "block";
+                        }
+                    </script>
                 </section>
                 <section id="footer">
                     <h2>© MMXVI Step Team</h2>
