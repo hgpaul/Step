@@ -69,6 +69,12 @@ header h1 {
     padding-bottom: 50px;
 }
 
+#signup h2 {
+    text-align: center;
+    font-size: 5em;
+    color: #2196f3;
+}
+
 #signup .mdl-textfield {
     display: block;
     margin-left: auto;
@@ -116,6 +122,9 @@ header h1 {
     }
     #signup .mdl-button {
         font-size: 2em;
+    }
+    #signup h2 {
+        font-size: 3em;
     }
     #footer h2 {
         font-size: 1.5em;
